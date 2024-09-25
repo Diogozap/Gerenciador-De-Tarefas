@@ -1,0 +1,107 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inputContainer {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px; 
+    width: 180px;
+}
+
+button {
+    padding: 8px;
+    margin-left: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+
+button:hover {
+    background-color: #0a5200; 
+}
+
+.taskList {
+    list-style-type: none;
+    padding: 0;
+}
+.editBtn {
+    padding: 8px;
+    margin-left: 10px;
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 5px 10px; /* Tamanho do botão */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar */
+    border-radius: 4px; /* Borda arredondada */
+}
+
+.editBtn:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+.cancelBtn {
+    padding: 8px;
+    margin-left: 10px;
+    background-color: red; 
+    color: white;
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+
+.cancelBtn:hover {
+    background-color: #b30000; 
+}
+
+.removeBtn {
+    padding: 8px;
+    margin-left: 10px;
+    background-color: red; 
+    color: white;
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+
+.removeBtn:hover {
+    background-color: #b30000; 
+}
+
+.taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem {
+    margin-bottom: 10px; /* Adiciona espaço entre as tarefas */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem {
+    padding: 10px; /* Adiciona espaço interno */
+    border: 1px solid #ddd; /* Opcional: borda para cada item */
+    margin-bottom: 10px; /* Espaço entre as tarefas */
+}
